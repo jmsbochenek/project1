@@ -6,16 +6,16 @@
   });
 
   function validationEvent() {
-    var a = document.forms["form-one"]["first-name"].value;
-    var b = document.forms["form-one"]["last-name"].value;
+    var a = document.forms["form-one"]["first"].value;
+    var b = document.forms["form-one"]["last"].value;
     var c = document.forms["form-one"]["email"].value;
-    var d = document.forms["form-one"]["phone-num"].value;
+    var d = document.forms["form-one"]["phone"].value;
     var e = document.forms["form-one"]["dob"].value;
     if ((a == "") || (b == "") || (c == "") || (d == "") || (e == "")){
       alert("All of the sections must be filled out.");
     }
     else{
-      alert("Welcome to the league! Details will be emailed soon.");
+      alert("Welcome to the gym.");
     }
   }
 
